@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+  background: #FAF9F6;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+
+/* @layer utilities {
+  .image-slide {
+    position: relative;
+    transition: transform 0.5s ease-in-out, scale 0.5s ease-in-out;
+    z-index: 10;
+  }
+
+  .image-slide:hover {
+    transform: scale(1.05) translateY(-10px);
+    z-index: 20;
+  }
+
+  section:nth-child(odd) .image-slide {
+    transform-origin: left center;
+  }
+
+  section:nth-child(even) .image-slide {
+    transform-origin: right center;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+} */
